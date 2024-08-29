@@ -14,9 +14,9 @@ First, the client interface itself that the user interacts with. The user will b
 
 ## Architecture
 **Deployment and configuration**
-1. Via Group Policy, define and deploy this key, which will define what servers GWSD will query:
-    **Key:** HKEY_LOCAL_MACHINE\SOFTWARE\GWSD\
-    **String Example 1:** "Office Synology":"\\Synology\Software"
+1. Via Group Policy, define and deploy this key, which will define what servers GWSD will query:  
+    **Key:** HKEY_LOCAL_MACHINE\SOFTWARE\GWSD\  
+    **String Example 1:** "Office Synology":"\\Synology\Software"  
     **String Example 2:** "Arizona DC":"\\arizona\Software"
 2. Create the shares with a default of no permissions for any software versions itself. Each new software added should have it's own security group. Essentially, you are disabling inheritance beyond a certain point.
 3. Deploy GWSD to all machines via Group Policy (you can define your scope). A PowerShell Script will be available to automate this.
