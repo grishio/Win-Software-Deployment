@@ -22,10 +22,10 @@ First, the client interface itself that the user interacts with. The user will b
 3. Deploy GWSD to all machines via Group Policy (you can define your scope). A PowerShell Script will be available to automate this.
 
 **Folder Structure**
--- Base of the SMB Share
-    -- Software Vendor
-        -- Software name
-            -- Version
+-- Base of the SMB Share  
+    -- Software Vendor  
+        -- Software name  
+            -- Version  
                 -- *The actual installation files*
 
 **GWSD Operation**
