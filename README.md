@@ -21,7 +21,7 @@ First, the client interface itself that the user interacts with. The user will b
 2. Create the shares with a default of no permissions for any software versions itself. Each new software added should have it's own security group. Essentially, you are disabling inheritance beyond a certain point.
 3. Deploy GWSD to all machines via Group Policy (you can define your scope). A PowerShell Script will be available to automate this.
 
-**Folder Structure**
+**Folder Structure**  
 -- Base of the SMB Share  
 &nbsp;-- Software Vendor  
 &nbsp;&nbsp;-- Software name  
