@@ -23,10 +23,10 @@ First, the client interface itself that the user interacts with. The user will b
 
 **Folder Structure**
 -- Base of the SMB Share  
-    -- Software Vendor  
-        -- Software name  
-            -- Version  
-                -- *The actual installation files*
+&nbsp;-- Software Vendor  
+&nbsp;&nbsp;-- Software name  
+&nbsp;&nbsp;&nbsp;-- Version  
+&nbsp;&nbsp;&nbsp;&nbsp;-- *The actual installation files*
 
 **GWSD Operation**
 1. User requests software
